@@ -1,24 +1,34 @@
 .header{
-    margin-top:10px;
+    width: 100%;
 }
 .header nav a{
     text-decoration:none;
     margin-right: 20px;
-    color: black;
+    color: white;
     padding: 0 5px;
-}
-.header nav a:hover{
-    background-color: lightblue;
-    color: black;
-}
-.nav_links{
-    list-style: none;
-}
-.nav_links Link{
     display: inline-block;
     padding: 0px 20px;
     transition: all 0.3s ease 0s;
 }
+.header nav a:hover{
+    /* background-color: rgb(180, 66, 196); */
+    color: #00a993;
+}
+.nav_links{
+    list-style: none;
+}
+/* .nav_links Link{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
 .nav_links Link:hover{
-    color: #0088a9;
+    color: #00a993;
+} */
+
+.nav_links{
+    background-color: rgb(131, 32, 177);
+    width: 100%;
+    height: 40px;
 }
